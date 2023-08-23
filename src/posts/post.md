@@ -23,7 +23,7 @@ export default {
 	kit: {
 		adapter: adapter(),
 	},
-    prerender: { entries: ['/posts/post_name'], },
+	prerender: { entries: ['/posts/post_name'], },
 };
 ```
 
