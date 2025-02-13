@@ -1,0 +1,1 @@
+import{t as r,a as o}from"../chunks/DSHHBkxz.js";import"../chunks/CSd0tq-w.js";import{n as e}from"../chunks/BH7HSzCs.js";var p=r('<h1>Projects</h1> <ul><li><a href="https://potatoboiler.github.io/aram-drafter">aram-drafter</a></li></ul>',1);function f(a){var t=p();e(2),o(a,t)}export{f as component};
