@@ -1,0 +1,3 @@
+import{t as a,a as t}from"../chunks/DSHHBkxz.js";import"../chunks/CSd0tq-w.js";import{n as o}from"../chunks/BH7HSzCs.js";var n=a(`<h1>About me</h1> <p>Hiya! I'm a junior at UC Berkeley, currently studying computer science and
+    math. Interested in software work involving new and emerging technologies.
+    Favorite programming language is currently Rust.</p> <p>You can find <a href="https://drive.google.com/file/d/1ihYgmSFiae6skEmEMsalr-RL2ptX_xyc/view?usp=sharing">my resume here.</a></p> <h2>Favorite composers (in no particular order)</h2> <ul><li>Gustav Mahler</li></ul>`,1);function s(e){var r=n();o(8),t(e,r)}export{s as component};
