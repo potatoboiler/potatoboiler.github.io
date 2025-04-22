@@ -1,0 +1,1 @@
+import{t,a as m}from"../chunks/DSHHBkxz.js";import"../chunks/CSd0tq-w.js";import{n as r}from"../chunks/BH7HSzCs.js";var e=t("<h1>In memoriam</h1> <h2>K. K.</h2>",1);function f(a){var o=e();r(2),m(a,o)}export{f as component};

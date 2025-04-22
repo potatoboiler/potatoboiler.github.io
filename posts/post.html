@@ -5,22 +5,22 @@
 		<link rel="icon" href="../favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		
-		<link rel="modulepreload" href="../_app/immutable/entry/start.cdWVgfNl.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/CSqcCEN9.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/start._8KdqXQK.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/dOLC-P9p.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/BH7HSzCs.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/17HX7D59.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.Bbj4oY4l.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.zvh2eqTL.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/DIH_UeTK.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/BbveO6KQ.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/DSHHBkxz.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/Dk3QgHEo.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/0.B5OCFj83.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.BPvjIVvU.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/CSd0tq-w.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/5.DRQNasAM.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/6.DRQNasAM.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/COmENgHQ.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents"><!--[--><!--[--><!----><div><nav><a href="/"><h3 class="home">home</h3></a> <a href="/about"><h3 class="about">about me</h3></a> <a href="/posts"><h3 class="posts">posts</h3></a> <a href="/projects"><h3 class="projects">projects</h3></a></nav></div><!----> <!----><!----><article><h1>Frustrations with SvelteKit and adapter-static</h1> <p>Published: 2023-08-20</p> <!----><p>Spent an inordinately long time watching Family Guy and poring over a guide to figure out why I was getting two errors.
+		<div style="display: contents"><!--[--><!--[--><!----><div><nav><a href="/"><h3 class="home">home</h3></a> <a href="/about"><h3 class="about">about me</h3></a> <a href="/posts"><h3 class="posts">posts</h3></a> <a href="/projects"><h3 class="projects">projects</h3></a> <a href="/mem"><h3 class="mem">in memoriam</h3></a></nav></div><!----> <!----><!----><article><h1>Frustrations with SvelteKit and adapter-static</h1> <p>Published: 2023-08-20</p> <!----><p>Spent an inordinately long time watching Family Guy and poring over a guide to figure out why I was getting two errors.
 The first concerned the prerenderer being unable to find <code>/posts/[slug]</code>.</p> <p>The fix:</p> <pre class="language-js"><!----><code class="language-js"><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">&#123;</span>
 	<span class="token punctuation">.</span><span class="token punctuation">.</span>configStuff
 	<span class="token literal-property property">kit</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
@@ -37,18 +37,18 @@ The first concerned the prerenderer being unable to find <code>/posts/[slug]</co
 			
 			<script>
 				{
-					__sveltekit_qssuia = {
+					__sveltekit_wqyoye = {
 						base: new URL("..", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("../_app/immutable/entry/start.cdWVgfNl.js"),
-						import("../_app/immutable/entry/app.Bbj4oY4l.js")
+						import("../_app/immutable/entry/start._8KdqXQK.js"),
+						import("../_app/immutable/entry/app.zvh2eqTL.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
-							node_ids: [0, 5],
+							node_ids: [0, 6],
 							data: [null,null],
 							form: null,
 							error: null
