@@ -26,7 +26,7 @@ export default {
 		}),
 		prerender: {
 			entries:
-				[]
+				['/mem']
 					.concat(fetchMarkdownPrerenderPaths())
 					.concat(['/'])
 		},
